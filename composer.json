@@ -1,12 +1,10 @@
 {
-    "name": "kynm/hello-world",
-    "description": "the first composer package",
-    "type": "php",
-    "license": "aaa",
+    "name": "phuc3695/hello-world",
+    "description": "My first Composer project",
     "authors": [
         {
-            "name": "kynm",
-            "email": "nguyen.manh.ky@framgia.com"
+            "name": "Your Name",
+            "email": "your@name.com"
         }
     ],
     "minimum-stability": "dev",
@@ -14,8 +12,8 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-4": {
-            "kynm\\SayHello\\": "src/"
+        "psr-0": {
+            "HelloWorld": "src/"
         }
     }
 }

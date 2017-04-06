@@ -1,5 +1,7 @@
-<?php
-namespace kynm\SayHello;
+<?php 
+
+namespace HelloWorld;
+
 class SayHello
 {
     public static function world()
